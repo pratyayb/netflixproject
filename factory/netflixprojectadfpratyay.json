@@ -1,0 +1,9 @@
+{
+	"name": "netflixprojectadfpratyay",
+	"location": "canadaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "610fe2f5-45ce-42db-8520-76ec44470e5a",
+		"tenantId": "80776bb4-1a78-4e20-ae9e-9d36eec52b03"
+	}
+}
