@@ -1,0 +1,13 @@
+{
+	"name": "github_con",
+	"properties": {
+		"description": "Github connection",
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
