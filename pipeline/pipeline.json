@@ -119,7 +119,7 @@
 				}
 			},
 			{
-				"name": "GetGithubFiles",
+				"name": "GetGithubMetadata",
 				"type": "WebActivity",
 				"dependsOn": [],
 				"policy": {
@@ -140,7 +140,7 @@
 				"type": "SetVariable",
 				"dependsOn": [
 					{
-						"activity": "GetGithubFiles",
+						"activity": "GetGithubMetadata",
 						"dependencyConditions": [
 							"Succeeded"
 						]
@@ -152,9 +152,9 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"variableName": "file_name",
+					"variableName": "githubmetadata",
 					"value": {
-						"value": "@activity('GetGithubFiles').output.Response",
+						"value": "@activity('GetGithubMetadata').output.Response",
 						"type": "Expression"
 					}
 				}
@@ -184,7 +184,7 @@
 			}
 		},
 		"variables": {
-			"file_name": {
+			"githubmetadata": {
 				"type": "String"
 			}
 		},
