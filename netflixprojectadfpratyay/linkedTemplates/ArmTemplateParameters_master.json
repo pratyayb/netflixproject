@@ -5,6 +5,12 @@
 		"factoryName": {
 			"value": "netflixprojectadfpratyay"
 		},
+		"adls_con_accountKey": {
+			"value": ""
+		},
+		"adls_con_properties_typeProperties_url": {
+			"value": "https://netflixprojectdlpratyay.dfs.core.windows.net/"
+		},
 		"github_con_properties_typeProperties_url": {
 			"value": "https://raw.githubusercontent.com/"
 		},
